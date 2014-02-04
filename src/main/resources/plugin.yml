@@ -1,0 +1,25 @@
+name: InventorySaver
+author: basicmark
+description: Inventory save and restore plug-in
+main: io.github.basicmark.inventorysaver.InventorySaver
+startup: postworld
+url: None
+depend: []
+softdepend: []
+version: 0.1
+commands:
+    InventorySaver:
+        description: Type /InventorySaver ? for more info
+        usage: /InventorySaver ?
+permissions:
+    inventorysaver.changeworld:
+        description: Auto save/restore when a player changes world
+        default: false
+permissions:
+    inventorysaver.manual:
+        description: Allows a player to manual save and restore
+        default: op
+permissions:
+    inventorysaver.admin:
+        description: Allows a player to create/remove slots and reload the config
+        default: op

@@ -1,0 +1,11 @@
+slots:
+    - example_slot_1
+    - example_slot_2
+worldgroups:
+    normalworlds:
+        - world
+        - world_nether
+        - world_the_end
+blacklistedworlds:
+    - Do_not_save_in_this_world
+    - or_this_one
